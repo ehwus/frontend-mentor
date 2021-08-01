@@ -123,3 +123,60 @@ and (-webkit-min-device-pixel-ratio: 2) {
         margin-right: 50px;
     }
 }
+
+@media only screen
+and (max-device-width: 375px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    html, body {
+        overflow-y: scroll;
+        flex-direction: column;
+        text-align: center;
+    }
+    .card {
+        margin-top: 30px;
+        flex-direction: column;
+        width: 300px;
+        height: 1200px !important;
+    }
+
+    .cardImg {
+        order: 1;
+        background-image: url("/images/image-header-mobile.jpg");
+        background-size: contain;
+        width: 300px;
+        height: 220.18px;
+        border-radius: 15px 15px 0px 0px !important;
+        z-index: 999;
+    }
+
+    .cardImgBackground {
+        border-radius: 15px 15px 0px 0px !important;
+    }
+
+    .info {
+        order: 2;
+        width: 300px;
+        height: 600px;
+    }
+
+    .info h1 {
+        margin: 20px 10px;
+        line-height: 1.2;
+        font-size: 27.5px;
+    }
+
+    .info .mainParagraph {
+        margin: 15px 15px 0px 15px;
+    }
+
+    .stats {
+        flex-direction: column !important;
+        padding-bottom: 50px;
+    }
+
+    .attribution {
+        position: relative;
+        top: revert;
+        margin-top: 15px;
+    }
+}
