@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: hsl(233, 47%, 7%);
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: hsl(244, 38%, 16%);
+    display: flex;
+    flex-direction: row;
+    width: 1080px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.info {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    height: 446px;
+    justify-content: space-evenly;
+}
+
+.info .stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 160px;
+}
+
+.info h1 {
+    color: hsl(0, 0%, 100%);
+    margin-left: 60px;
+    margin-right: 70px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.statHeading {
+    color: hsl(0, 0%, 100%);
+}
+
+.info .mainParagraph {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    margin-left: 60px;
+    margin-right: 90px;
+    font-weight: 400;
+    margin-top: -40px;
+    line-height: 1.8;
+}
+
+.info .stats .stat {
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.cardImg {
+    background-image: url("images/image-header-desktop.jpg");
+    background-size: cover;
+    width: 540px;
+    height: 446px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.cardImgBackground {
+    background-color: hsl(277, 64%, 61%);
+    height: 100%;
+    width: 100%;
+    border-radius: 0px 15px 15px 0px;
+    mix-blend-mode: multiply;
+    opacity: 0.9;
+}
+
+.accent {
+    color: hsl(277, 64%, 61%);
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.statBody {
+    text-transform: uppercase;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 13px;
+    margin-top: -15px;
+}
+
+.attribution {
+    color: hsla(0, 0%, 100%, 0.6);
+    position: absolute;
+    top: 95%;
+}
+
+.attribution a {
+    color: hsla(0, 0%, 100%, 0.6);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+@media only screen
+and (max-device-width: 1100px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .card {
+        width: 80%;
+    }
+
+    .info .stats {
+        margin-right: 50px;
+    }
+}
