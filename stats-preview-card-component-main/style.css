@@ -141,7 +141,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     .cardImg {
         order: 1;
-        background-image: url("/images/image-header-mobile.jpg");
+        background-image: url("images/image-header-mobile.jpg");
         background-size: contain;
         width: 300px;
         height: 220px;
