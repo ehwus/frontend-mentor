@@ -133,7 +133,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         text-align: center;
     }
     .card {
-        margin-top: 30px;
+        margin-top: 300px;
         flex-direction: column;
         width: 300px;
         height: 1200px !important;
@@ -144,7 +144,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         background-image: url("/images/image-header-mobile.jpg");
         background-size: contain;
         width: 300px;
-        height: 220.18px;
+        height: 220px;
         border-radius: 15px 15px 0px 0px !important;
         z-index: 999;
     }
@@ -171,12 +171,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     .stats {
         flex-direction: column !important;
-        padding-bottom: 50px;
+        padding-bottom: 20px;
     }
 
     .attribution {
         position: relative;
         top: revert;
-        margin-top: 15px;
+        margin-top: 30px;
     }
 }
